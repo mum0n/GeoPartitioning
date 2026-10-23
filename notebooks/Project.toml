@@ -8,6 +8,9 @@ GeoPartitioning = "8f39e3ce-31f2-4cbc-add5-3c97d226e5da"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
+[sources]
+GeoPartitioning = {path = ".."}
+
 [compat]
 Plots = "1"
 julia = "1.10"
