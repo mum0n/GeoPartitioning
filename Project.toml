@@ -1,0 +1,48 @@
+name = "GeoPartitioning"
+uuid = "8f39e3ce-31f2-4cbc-add5-3c97d226e5da"
+version = "0.1.0"
+authors = ["Jae S. Choi <choi.jae.seok@gmail.com>"]
+
+[deps]
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+CoordRefSystems = "b46f11dc-f210-4604-bfba-323c1ec968cb"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+DelaunayTriangulation = "927a84f5-c5f4-47a5-9785-b46e178433df"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LibGEOS = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+Shapefile = "8e980c4a-a4fe-5da2-b3a7-4b4b0353a2f4"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[compat]
+Clustering = "0.15"
+CoordRefSystems = "0.21"
+DataFrames = "1"
+Dates = "1"
+DelaunayTriangulation = "1"
+Graphs = "1"
+JLD2 = "0.6"
+LibGEOS = "0.9"
+LinearAlgebra = "1"
+NearestNeighbors = "0.4"
+Shapefile = "0.13"
+SparseArrays = "1"
+StaticArrays = "1"
+Statistics = "1"
+StatsBase = "0.34"
+Unitful = "1"
+julia = "1.10"
+
+[extras]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Random"]
